@@ -41,7 +41,10 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). The closures captures the variable from the lexical scope.
+
+
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -62,9 +65,13 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? dansRolls(); How can you tell? Its in the outter scope seeking the outcome for dan. 
+
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same?  The name . What could change? the dice roll number. 
+
+
+c. What is the lexical scope of `newRoll`? The variable can be accesed Math.floor(Math.random() * 6).
 
 ### Task 3 - Stretch Goals
 
