@@ -26,11 +26,15 @@ function processFirstItem(stringList, callback) {
 /* Task 1: `counterMaker`
  * Study the code for counter1 and counter2. Answer the questions below.
  * 
- * 1. What is the difference between counter1 and counter2?
+ * 1. What is the difference between counter1 and counter2? 
  * 
- * 2. Which of the two uses a closure? How can you tell?
+ * Counter 1 has a closure. Counter2 has no closure to or function within a function.
+ * 
+ * 2. Which of the two uses a closure? How can you tell? counter 1 because its a function within a function and in the innerfunction the outter function variable is called which is in the lexical scope.
  * 
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
+ * 
+ *  I need help defining the answer to this question.
  *
 */
 
